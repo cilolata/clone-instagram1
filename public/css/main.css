@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	font-family: 'Open Sans', sans-serif;
+	height: 100%;
+}
+
+.header{
+	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2% 6% 2% 2%;
+	border-bottom: 2px solid rgb(238, 235, 235);
+}
+
+.header__img{
+	width: 35%;
+}
+
+.header__i{
+	font-size: 2em;
+	color: black;
+}
+
+main{
+	background-color: #FAFAFA;
+}
+
+.stories{
+	display: flex;
+	
+}
+
+.stories__button{
+	width: 20%;
+	border-radius: 50%;
+	margin: 5% 0 5% 2%;
+	background-color: transparent;
+	border: none;
+	border-color: transparent;
+
+}
+
+.stories__img{
+	width: 80%;
+	border-radius: 50%;
+}
+
+.stories__img--active{
+	padding: 2%;
+	border: 2px solid;
+	border-color: rgb(226, 73, 46);
+}
+
+.section__card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 100%;
+}
+
+.card{
+	width: 90%;
+	margin-bottom: 10%;
+	background-color: white;
+	border-radius: 15px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	font-size: 2em;
+}
+
+.card__header{
+	display: flex;
+	padding: 2% ;
+}
+
+.card__header--display{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 50%;
+}
+
+.card__header--button{
+	display: flex;
+	justify-content: flex-end;
+	width: 50%;
+	border: none;
+	background-color: transparent;
+
+}
+
+.card__profile{
+	width: 20%;
+	border-radius: 50%;
+	margin-right: 2%;
+}
+
+.card__name{
+	text-transform: capitalize;
+	font-size: 0.8em;
+	font-weight: 700;
+}
+
+.card__img{
+	width: 100%;
+}
+
+.card__actions{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.card__actions--start{
+	display: flex;
+	width: 20%;
+	padding-left: 2%;
+}
+
+.card__actions--end{
+	display: flex;
+	justify-content: flex-end;
+	width: 80%;
+	padding-right: 2%;
+
+}
+
+.card__action{
+	background-color: transparent;
+	border: none;
+	padding: 3%;
+}
+
+.card__action--heart{
+	margin-right: 15%;
+}
+
+.card__interaction{
+	display: flex;
+	align-items: center;
+	background-color:rgb(240, 238, 238) ;
+	padding: 2% 3%;
+	font-size: 0.8em;
+}
+
+.card__profile--interaction{
+	width: 10%;
+	border-radius: 50%;
+	margin-right: 2%;
+}
+
+.card__span{
+	font-weight: 700;
+}
+
+@media (min-width: 1025px) {
+
+.header{
+	padding: 0 25% ;
+}
+.header__img{
+	width: 25%;
+}
+
+.header__1{
+	font-size: 2em;
+}
+
+.stories{
+	padding: 0 24%;
+}
+
+.stories__button{
+	width: 15%;
+
+}
+
+.section__card{
+	padding: 0 23%;
+}
+
+}
+
+
+
+
+
+ 
